@@ -1,0 +1,126 @@
+    <geometry name=" ">
+      <pointSet dim="3" point="hide">
+        <points num="8">
+          <p>     -XLIM.0000      -XLIM.0000     -ZLIM.0000</p>
+          <p>      XLIM.0000      -XLIM.0000     -ZLIM.0000</p>
+          <p>      XLIM.0000       XLIM.0000     -ZLIM.0000</p>
+          <p>     -XLIM.0000       XLIM.0000     -ZLIM.0000</p>
+          <p>     -XLIM.0000      -XLIM.0000       0.0000</p>
+          <p>      XLIM.0000      -XLIM.0000       0.0000</p>
+          <p>      XLIM.0000       XLIM.0000       0.0000</p>
+          <p>     -XLIM.0000       XLIM.0000       0.0000</p>
+          <thickness>1</thickness>
+          <color type="rgba">0.00 0.00 0.00 0.00</color>
+        </points>
+      </pointSet>
+      <lineSet line="show">
+        <lines num="4">
+          <l>0 1</l>
+          <l>1 2</l>
+          <l>2 3</l>
+          <l>3 0</l>
+          <thickness>1</thickness>
+          <color type="rgba">0.00 0.00 0.00 0.00</color>
+          <colorTag type="rgba">0.00 0.00 0.00 0.00</colorTag>
+        </lines>
+        <colors type="rgba" num="4">
+          <c>0.00 0.00 0.00 0.00</c>
+          <c>0.00 0.00 0.00 0.00</c>
+          <c>0.00 0.00 0.00 0.00</c>
+          <c>0.00 0.00 0.00 0.00</c>
+        </colors>
+      </lineSet>
+    </geometry>
+    <geometry name=" ">
+      <pointSet dim="3" point="hide">
+        <points num="8">
+          <p>     -XLIM.0000      -XLIM.0000     -ZLIM.0000</p>
+          <p>      XLIM.0000      -XLIM.0000     -ZLIM.0000</p>
+          <p>      XLIM.0000       XLIM.0000     -ZLIM.0000</p>
+          <p>     -XLIM.0000       XLIM.0000     -ZLIM.0000</p>
+          <p>     -XLIM.0000      -XLIM.0000       0.0000</p>
+          <p>      XLIM.0000      -XLIM.0000       0.0000</p>
+          <p>      XLIM.0000       XLIM.0000       0.0000</p>
+          <p>     -XLIM.0000       XLIM.0000       0.0000</p>
+          <thickness>1</thickness>
+          <color type="rgba">0.00 0.00 0.00 0.00</color>
+        </points>
+      </pointSet>
+      <lineSet line="show">
+        <lines num="4">
+          <l>0 4</l>
+          <l>1 5</l>
+          <l>2 6</l>
+          <l>3 7</l>
+          <thickness>1</thickness>
+          <color type="rgba">0.00 0.00 0.00 0.00</color>
+          <colorTag type="rgba">0.00 0.00 0.00 0.00</colorTag>
+        </lines>
+        <colors type="rgba" num="4">
+          <c>0.00 0.00 0.00 0.00</c>
+          <c>0.00 0.00 0.00 0.00</c>
+          <c>0.00 0.00 0.00 0.00</c>
+          <c>0.00 0.00 0.00 0.00</c>
+        </colors>
+      </lineSet>
+    </geometry>
+    <geometry name=" ">
+      <pointSet dim="3" point="hide">
+        <points num="8">
+          <p>     -XLIM.0000      -XLIM.0000     -ZLIM.0000</p>
+          <p>      XLIM.0000      -XLIM.0000     -ZLIM.0000</p>
+          <p>      XLIM.0000       XLIM.0000     -ZLIM.0000</p>
+          <p>     -XLIM.0000       XLIM.0000     -ZLIM.0000</p>
+          <p>     -XLIM.0000      -XLIM.0000       0.0000</p>
+          <p>      XLIM.0000      -XLIM.0000       0.0000</p>
+          <p>      XLIM.0000       XLIM.0000       0.0000</p>
+          <p>     -XLIM.0000       XLIM.0000       0.0000</p>
+          <thickness>2</thickness>
+          <color type="rgba">0.00 1.00 0.00 0.00</color>
+        </points>
+      </pointSet>
+      <lineSet line="show">
+        <lines num="3">
+          <l>4 5</l>
+          <l>5 6</l>
+          <l>7 4</l>
+          <thickness>2</thickness>
+          <color type="rgba">0.00 1.00 0.00 0.00</color>
+          <colorTag type="rgba">0.00 1.00 0.00 0.00</colorTag>
+        </lines>
+        <colors type="rgba" num="3">
+          <c>0.00 1.00 0.00 0.00</c>
+          <c>0.00 1.00 0.00 0.00</c>
+          <c>0.00 1.00 0.00 0.00</c>
+        </colors>
+      </lineSet>
+    </geometry>
+    <geometry name=" ">
+      <pointSet dim="3" point="hide">
+        <points num="8">
+          <p>     -XLIM.0000      -XLIM.0000     -ZLIM.0000</p>
+          <p>      XLIM.0000      -XLIM.0000     -ZLIM.0000</p>
+          <p>      XLIM.0000       XLIM.0000     -ZLIM.0000</p>
+          <p>     -XLIM.0000       XLIM.0000     -ZLIM.0000</p>
+          <p>     -XLIM.0000      -XLIM.0000       0.0000</p>
+          <p>      XLIM.0000      -XLIM.0000       0.0000</p>
+          <p>      XLIM.0000       XLIM.0000       0.0000</p>
+          <p>     -XLIM.0000       XLIM.0000       0.0000</p>
+          <thickness>2</thickness>
+          <color type="rgba">0.00 0.00 1.00 0.00</color>
+        </points>
+      </pointSet>
+      <lineSet line="show">
+        <lines num="1">
+          <l>6 7</l>
+          <thickness>2</thickness>
+          <color type="rgba">0.00 0.00 1.00 0.00</color>
+          <colorTag type="rgba">0.00 0.00 1.00 0.00</colorTag>
+        </lines>
+        <colors type="rgba" num="1">
+          <c>0.00 0.00 1.00 0.00</c>
+        </colors>
+      </lineSet>
+    </geometry>
+  </geometries>
+</jvx-model>

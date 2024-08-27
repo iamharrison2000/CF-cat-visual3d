@@ -1,0 +1,125 @@
+<html>
+ <head>
+<br>
+  <title>CF seismicity - 3D View</title>
+ </head>
+<font face='helvetica'>
+ <body>
+  <h2 align='center'>
+   <font size=4> CF seismicity - 3D View </font>
+  </h2>
+<blockquote>
+
+<center>
+<table cellspacing=10>
+ <tr>
+  <td>
+     <canvas id="3dview" width="600" height="600">This viewer requires JavaScript</canvas>
+     <script src="./js/three.min.js"></script>
+     <script src="./js/controls/TrackballControls.js"></script>
+     <script src="./js/renderers/CanvasRenderer.js"></script>
+     <script src="./js/renderers/Projector.js"></script>
+     <script src="./js/effects/StereoEffect.js"></script>
+     <script src="./js/eqview.js"></script>
+     <script>
+     eqview ("CF");
+     </script>
+  </td>
+
+  <td>
+    <p>
+      Legend:
+      <font size=2> 
+      <li>
+        Top square of the bounding box has <font color='green'>green</font>/<font color='blue'>blue</font> sides, 
+        <font color='blue'>blue</font> on the North.
+      </li>
+      <li>
+        Spheres are hypocenters: <strong> <font color='red'>Mag &#8805 2.7</font>; <font color='#CCCC00'>Mag &#60 2.7</font></strong>. 
+      </li>
+      <li>
+        <b><font color='black'>Black lines</font> </b> are faults.
+      </li>
+      <li>
+        XYZ box dimensions (km) = <strong>15 x 15 x 6</strong>.
+      </li>
+    </font> 
+    </p>
+
+<br>
+   <p>
+    <font size=3> Viewer instructions: </font>
+   </p>
+    <table >
+     <tr>
+      <td align="center" width="35%" valign="top"><em>
+      <font size="2">Left-Mouse</font></em></td>
+      <td width="5"></td>
+      <td width="60%"><font size="2">Drag to rotate</font></td>
+     </tr>
+     <tr>
+      <td align="center" width="35%" valign="top"><em>
+      <font size="2">Middle-Mouse / Scroll-Wheel / s</font></em></td>
+      <td width="5"></td>
+      <td width="60%"><font size="2">Drag to scale</font></td>
+     </tr>
+     <tr>
+      <td align="center" width="35%" valign="top"><em>
+      <font size="2">Right-Mouse / d</font></em></td>
+      <td width="5"></td>
+      <td width="60%"><font size="2">Drag to translate</font></td>
+     </tr>
+     <tr>
+      <td align="center" width="35%" valign="top"><em>
+      <font size="2">r</font></em></td>
+      <td width="5"></td>
+      <td width="60%"><font size="2">Reset view</font></td>
+     </tr>
+     <tr>
+      <td align="center" width="35%" valign="top"><em>
+      <font size="2">w / q</font></em></td>
+      <td width="5"></td>
+      <td width="60%"><font size="2">Start / Stop 
+       free (undamped) rotation</font></td>
+      </tr>
+      <tr>
+       <td align="center" width="35%" valign="top"><em>
+       <font size="2">z</font></em></td>
+       <td width="5"></td>
+       <td width="60%"><font size="2">Toggle stereo view</font></td>
+     </tr>
+     <tr>
+       <td align="center" width="35%" valign="top"><em>
+       <font size="2">+ / -</font></em></td>
+       <td width="5"></td>
+       <td width="60%"><font size="2">Increase / Decrease
+       stereo eye distance</font></td>
+      </tr>
+      <tr>
+       <td align="center" width="35%" valign="top"><em>
+       <font size="2">e</font></em></td>
+       <td width="5"></td>
+       <td width="60%"><font size="2">Reset stereo eye separation</font></td>
+     </tr>
+     <tr>
+      <td colspan="3" height=5></td>
+     </tr>
+    </table>
+
+   </td>
+  </tr>
+</table>
+</center>
+
+<hr />
+
+<p>
+    This page uses the
+<a href="http://threejs.org/"><STRONG><EM><FONT color=#004080>Three.js</FONT></EM></STRONG></a>
+    3D JavaScript library.
+<p>
+<!---  <i>Time created: Tue Aug 27 19:12:56 UTC 2024  - Felix Waldhauser</i>--->
+</p>
+
+ </body>
+</html>
