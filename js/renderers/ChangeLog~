@@ -1,0 +1,9 @@
+2015-11-13  Eric Malikowski  <emalikowski@ldeo.columbia.edu>
+
+	* CanvasRenderer.js: Initial import - original from
+	<http://threejs.org/examples/js/renderers/CanvasRenderer.js>,
+	collecting all downloaded files under `ddrt'.
+
+	* Projector.js: Initial import - original from
+	<http://threejs.org/examples/js/renderers/Projector.js>,
+	collecting all downloaded files under `ddrt'.

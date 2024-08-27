@@ -1,0 +1,5 @@
+2015-12-17  Eric Malikowski  <emalikowski@ldeo.columbia.edu>
+
+	* StereoEffect.js: Initial import, downloaded from
+	<http://threejs.org/examples/js/effects/StereoEffect.js>
+
