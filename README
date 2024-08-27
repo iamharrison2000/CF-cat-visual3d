@@ -1,0 +1,58 @@
+EQVIEW3D  ---   Shell scripts to generate Javascript applet 
+for viewing earthquake locations in 3D via a web browser.
+
+By: Felix Waldhauser (LDEO), Bob Simpson (USGS), Eric Malikowski (LDEO)
+
+April 2016.
+
+Edit top of file eqview3D.sh to set parameters, then run 
+./eqview3D.sh
+
+Earthquake file should be in hypoDD.reloc format.
+Reads fault file in ASCII format if provided (lat, long).
+
+All files are read in from and written out to the same 
+directory from which eqview3D.sh is started.
+
+To view results, point your browser to the file that ends 
+with *.3d.html (e.g., your_project_name.3d.html). Make sure 
+the file is in the same direcotry that contains the ./js 
+directory.
+
+Adjust parameters in eqview3D.sh so that all events are 
+within box (xlim, zlim) and box fits the gray panel on the 
+web site (cameraposition). You may need to empty the 
+browser's cache or restart the brower before opening the 
+new html file for the new parameters to take effect.
+
+Follow viewing instructions given on the web site.
+
+Contact: felixw@ldeo.columbia.edu | March 2013
+
+
+#############################################
+Added on Aug 27, 2024, Xing Tan(Stanford)
+
+Important Notes for Mac Users
+If you directly open 3d.html/#Project_name#.3d.html in your browser, you may encounter a Cross-Origin Request error (XMLHttpRequest cannot load file). This happens because browsers block local file requests for security reasons. You can see this error in the DevTools console (Option + Command + I).
+
+To resolve this, I referred to this Stack Overflow link: https://stackoverflow.com/questions/20041656/xmlhttprequest-cannot-load-file-cross-origin-requests-are-only-supported-for-ht 
+
+Additionally, .jvd and .jvx files may have the wrong MIME type (application/octet-stream). We need to ensure their MIME type is set to text/xml.
+
+Solution: Using a Local Python Server
+To avoid these issues, set up a local Python server:
+
+Run the shell script: 
+1. Edit parameters in eqview3D.sh and execute it with "bash ./eqview3D.sh".
+2. Start the Python server: Use "python3 ./custom_http_server.py". The server runs on port 8020 by default, but you can change this in the script.
+3. Open the HTML file: Access it via "http://127.0.0.1:8020/#PROJECT_HTML_FILE#" in your browser.
+This setup ensures proper loading and viewing of your 3D plot.
+
+For this project: 
+'CF.cat':tomoDD relocated file
+'faults.dat': empty file
+For visualization, we only select events with a magnitude larger than 0.5 and events with a magnitude larger than 2.7, which are colored red. To view the 3d interactive plot, please follow the steps above and open the URL: 'http://127.0.0.1:8020/CF.3d.html'
+
+
+#############################################
