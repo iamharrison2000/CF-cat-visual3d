@@ -1,0 +1,11 @@
+2015-12-11  Eric Malikowski  <emalikowski@ldeo.columbia.edu>
+
+	* TrackballControls.js: Add separate `rotationDampingFactor' to
+	allow for undamped rotation without affecting zoom or
+	translation.
+
+2015-11-12  Eric Malikowski  <emalikowski@ldeo.columbia.edu>
+
+	* TrackballControls.js: Initial import - original from
+	<http://threejs.org/examples/js/controls/TrackballControls.js>,
+	consolidating all downloaded files under `ddrt' git.
