@@ -48,12 +48,12 @@ function eqview (pname) {
 	}
       }
       // step 2: parse the JVX file for EQ centers, faults and bounding box
-      xmljvx.open ("GET", pname + "_jvx.txt", true);
+      xmljvx.open ("GET", pname + "_jvx.xml", true);
       xmljvx.send ();
     }
   }
   // step 1: parse the JVD file for camera position
-  xmljvd.open ("GET", pname + "_jvd.txt", true);
+  xmljvd.open ("GET", pname + "_jvd.xml", true);
   xmljvd.send ();
 }	// function read_jvd_file
 
